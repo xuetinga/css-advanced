@@ -36,44 +36,37 @@
     <form action="">
         <fieldset>
             <legend class="student">学生档案</legend>
-            <label for="text">姓名：</label>
-            <br/>
+            <label for="text">姓名：</label><br/>
             <input type="text" placeholder="请输入姓名" class="stu" required="required" name="sname">
             <span>*</span><br/>
 
-            <label for="number">学号：</label>
-            <br/>
+            <label for="number">学号：</label><br/>
             <input type="number" placeholder="请输入学号" class="stu" required name="sno">
             <span>*</span><br/>
 
-            <label for="tel">手机号码：</label>
-            <br/>
+            <label for="tel">手机号码：</label><br/>
             <input type="tel" placeholder="请输入手机号" class="stu" required name="stel">
             <span>*</span><br/>
 
-            <label for="email">邮箱地址：</label>
-            <br/>
+            <label for="email">邮箱地址：</label><br/>
             <input type="email" placeholder="请输入邮箱地址" class="stu" required name="seil">
             <span>*</span><br/>
 
-            <label for="serach">录取学校：</label>
-            <br/>
+            <label for="serach">录取学校：</label><br/>
             <input type="search" list="schools" name="sc">
             <datalist id="schools">
                     <option>河北师范大学</option>
                     <option>河北科技大学</option>
                     <option>清华大学</option>
                     <option>北京大学</option>
-                </datalist><br/>
+            </datalist><br/>
 
-            <label for="number">入学成绩：</label>
-            <br/>
-            <input type="number" name="scno"><br/>
+            <label for="number">入学成绩：</label><br/>
+            <input type="number" name="scno" min="0" max="750"><br/>
 
-            <label for="date">入学时间：</label>
-            <br/>
-            <input type="date" name="sctime">
-            <br/>
+            <label for="date">入学时间：</label><br/>
+            <input type="date" name="sctime"><br/>
+
             <input type="submit" name="sub" id="sub">
         </fieldset>
 
