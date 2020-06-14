@@ -20,12 +20,15 @@
 #col-1{
     z-index: 5px;
 }
-
+#a{
+    font-size: 20px;
+}
 .navbar-nav li {
     text-align: left;
-    margin-left: 40px;
+    margin-left: 50px;
     margin-top: 10px;
 }
+
 
 .navbar-inverse {
     border-color: rgba(0, 0, 0, 0);
