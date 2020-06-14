@@ -16,20 +16,9 @@
     color: white;
 }
 
-#img {
-    height: 35px;
-    width: 110px;
-    float: left;
-}
 
-.icon-bar {
-    background-color: black;
-}
-
-#font {
-    background-color: rgb(243, 73, 11);
-    color: white;
-    margin-left: 100px;
+#col-1{
+    z-index: 5px;
 }
 
 .navbar-nav li {
@@ -69,7 +58,9 @@
 .navbar-inverse .navbar-toggle {
     border-color: rgba(0, 0, 0, 0);
 }
-
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+   border:0px;
+}
 
 /* 轮播图部分 */
 
@@ -239,6 +230,9 @@ a {
 /* 实现过渡 */
 
 @media screen and (max-width:768px) {
+    #col-1 ul{
+        height: 200px;
+    }
     #pc-car {
         display: none;
     }
