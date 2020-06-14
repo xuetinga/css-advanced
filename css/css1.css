@@ -73,10 +73,14 @@
 
 /* 轮播图部分 */
 
-.lunbo {
-    height: 400px;
-    background: url(../images/banner.jpg) no-repeat;
-    background-size: 100% 100%;
+.leftimg {
+    margin-top: 210px;
+    margin-left: -140px;
+}
+
+.rightimg {
+    margin-top: 210px;
+    margin-left: 120px;
 }
 
 #row33 {
@@ -139,11 +143,11 @@
 
 #data>span {
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 4px;
     width: 145px;
     height: 50px;
     font-size: 16px;
-    padding-left: 60px;
+    padding-left: 9px;
     background: url(../images/position.png) no-repeat;
     display: block;
 }
@@ -197,8 +201,7 @@
     display: block;
 }
 
-#phone-side-font {
-    display: none;
+#phone-side-font{
     display: none;
     width: 220px;
     font-size: 26px;
@@ -262,6 +265,12 @@ a {
     #phone-bottom {
         display: block;
     }
+    #navbar1,#side,#phone-hope1,#phone-hope3,#pc-hope2
+    {
+        background-color: #fff;
+    }
+   
+
 }
 
 @media screen and (min-width: 768px) {
@@ -273,6 +282,9 @@ a {
     }
     #phone-bottom {
         display: none;
+    }
+    #img {
+        margin-left: 50px;
     }
 }
 
@@ -447,16 +459,13 @@ h2 {
 
 /* 愿望与憧憬 */
 
-#hope {
-    background: url(../images/back.png) no-repeat;
-}
 
 #hope-bg1,
 #hope-bg2,
 #hope-bg3 {
     width: 195px;
     height: 200px;
-    background: url(../img/rorate.png) no-repeat;
+    background: url(../images/rorate.png) no-repeat;
     margin: 40px auto;
     text-align: center;
     color: white;

@@ -17,78 +17,100 @@
 
 <body>
     <div>
+        <!-- 电话部分 -->
         <div class="collapse navbar-collapse" id="tel">
             <div class="row">
-                <div class="col-md-4 col-md-push-8 col-sm-4 col-sm-push-8">
+                <div class="col-md-4 col-md-push-8 col-sm-4 col-sm-push-8 ">
                     <img id="tel1" src="images/tell.png">
                     <span id="tel2">400-808-8682</span>
                     <span id="tel3">请登录&nbsp;&nbsp;|&nbsp;&nbsp;注册</span>
                 </div>
             </div>
         </div>
-        <div class="container">
-            <nav class="navbar navbar-inverse" id="navbar1">
-                <div class="row">
-                    <div class="col-md-3 col-sm-2 ">
-                        <div class="navbar-header" id="navbar2">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#col-1">
+        <!-- 导航栏 -->
+
+
+        <nav class="navbar navbar-inverse" id="navbar1">
+            <div class="row">
+                <div class="col-md-3 col-sm-2 ">
+                    <div class="navbar-header" id="navbar2">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#col-1">
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <button type="button" class="navbar-toggle" id="font">快速定制</button>
-                            <a class="navbar-brand" href="#">
-                                <img id="img" src="images/logo.png">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-8 col-sm-10">
-                        <div class="collapse navbar-collapse" id="col-1">
-                            <ul class="nav navbar-nav">
-                                <li><a id="a" href="#">首页</a></li>
-                                <li><a id="a" href="#side">热门路线</a></li>
-                                <li><a id="a" href="#">签证推荐</a></li>
-                                <li><a id="a" href="#hope">使命愿景</a></li>
-                            </ul>
-                        </div>
+                        <button type="button" class="navbar-toggle" id="font">快速定制</button>
+                        <a class="navbar-brand" href="#">
+                            <img id="img" src="images/logo.png">
+                        </a>
                     </div>
                 </div>
-            </nav>
-        </div>
+                <div class="col-md-8 col-sm-10">
+                    <div class="collapse navbar-collapse" id="col-1">
+                        <ul class="nav navbar-nav">
+                            <li><a id="a" href="#">首页</a></li>
+                            <li><a id="a" href="#side">热门路线</a></li>
+                            <li><a id="a" href="#">签证推荐</a></li>
+                            <li><a id="a" href="#hope">使命愿景</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- 轮播图部分 -->
         <div class="lunbo">
-            <!-- <img class="img-responsive" alt="Responsive image" src="images/banner.jpg" style=" width: 100% ;margin-top:0px;"> -->
 
-            <div class="row" id="row11">
-                <div class="col-md-1 col-sm-1 col-xs-1">
-                </div>
-                <div class="col-md-4 col-sm-4 col-xs-4">
-                    <h1 id="font1">悠游古欧洲 &nbsp;<br> 遍览德法瑞意</h1>
-                </div>
-            </div>
-            <div class="row" id="row22">
+            <div id="generic" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#generic" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img alt="First slide" src="images/banner.jpg" style="height: 500px; width: 100%">
+                        <div class="carousel-caption" style="left:40px;">
+                            <div class="row" id="row11">
+                                <div class="col-md-4 col-md-push-1 col-sm-4 col-xs-3">
+                                    <h1 id="font1">悠游古欧洲 &nbsp;<br> 遍览德法瑞意</h1>
+                                </div>
+                            </div>
+                            <div class="row" id="row22">
+                                <div class="col-md-4 col-md-push-1 col-sm-5 col-sm-push-1 col-xs-4  col-xs-push-1" id="pc-hidden-font">
+                                    <h4 id="font2">巴黎卢浮宫、塞纳河游船、凡尔赛宫<br></h4>
+                                    <h4 id="font3">少女峰、大运河游船、金色列车，西庸城堡</h4>
+                                </div>
+                                <div class="col-md-4 col-sm-5 col-xs-4 col-xs-push-1" id="phone-hidden-font">
+                                    <h4 id="font4">全程升级热早+1晚5星级酒店</h4>
+                                </div>
+                            </div>
+                            <div class="row " id="row33">
+                                <div class="col-md-4 col-md-push-4 col-sm-4 col-sm-push-4 col-xs-4  ">
+                                    <div class="search">
+                                        <div id="data"><span>目的地</span></div>
+                                        <input type="search" id="font5" placeholder="|  日本   美国   英国   地中海">
+                                        <div id="font6"><span></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-                <div class="col-md-4 col-md-push-1 col-sm-5 col-sm-push-1 col-xs-4  col-xs-push-1" id="pc-hidden-font">
-                    <h4 id="font2">巴黎卢浮宫、塞纳河游船、凡尔赛宫<br></h4>
-                    <h4 id="font3">少女峰、大运河游船、金色列车，西庸城堡</h4>
-                </div>
-                <div class="col-md-4 col-sm-5 col-xs-4 col-xs-push-1" id="phone-hidden-font">
-                    <h4 id="font4">全程升级热早+1晚5星级酒店</h4>
-                </div>
-            </div>
-            <div class="row " id="row33">
-                <div class="col-md-4 col-sm-1 col-xs-">
-                </div>
-                <div class="col-md-4 col-sm-4 col-xs-4 ">
-                    <div class="search">
-                        <div id="data"><span>目的地</span></div>
-                        <input type="search" id="font5" placeholder="|  日本   美国   英国   地中海">
-                        <div id="font6"><span></span></div>
+                    </div>
+                    <div class="item">
+                        <img alt="Second slide" src="images/banner.jpg" style="height: 500px; width: 100%">
                     </div>
                 </div>
 
+                <a class="left carousel-control" href="#generic" data-slide="prev">
+                    <img class="leftimg" src="images/left.png">
+                </a>
+                <a class="right carousel-control" href="#generic" data-slide="next">
+                    <img class="rightimg" src="images/right.png">
+                </a>
+
             </div>
         </div>
-
+        <!-- 机场接送部分 -->
         <div class="container" id="pc-car">
             <div class="row">
                 <div class="col-xs-9 col-md-9" style="height:365px; background: url(images/Sbanner2.jpg) no-repeat 100% ;">
@@ -106,7 +128,7 @@
                 </div>
 
                 <div class="col-xs-3 col-md-3" style="background-color: #17336e;height:365px;">
-                    <img src="img/car.png" alt="" style="margin-top: 85px;margin-left: 70px;">
+                    <img src="images/car.png" alt="" style="margin-top: 85px;margin-left: 70px;">
                     <h3 style="color: white;margin-left: 70px;">车辆接送</h3>
                     <button type="button" class="btn btn-warning btn-lg" style="background-color: #17336e;border: 2px solid white;margin-left: 70px;margin-top: 20px;">
                                     查看详情
@@ -114,9 +136,10 @@
                 </div>
             </div>
         </div>
+        <!-- 手机端的 -->
         <div class="container" id="phone-car">
             <div style="width:670px;margin:0 auto;">
-                <img src="img/carH.png" alt="" style="margin-top: 45px;">
+                <img src="images/carH.png" alt="" style="margin-top: 45px;">
                 <h3 style="margin-left: 120px;margin-top: -90px;color: #1c5080;">机场接送 省心省力</h3>
                 <p style="margin-left: 120px;font-size: 16px;">提供上海、苏州、无锡市</p>
                 <p style="margin-left: 120px;font-size: 16px;">往返机场、码头接送服务，更有包车服务</p>
@@ -127,14 +150,14 @@
         </div>
 
 
-
-        <div class="container" id="side">
+        <!-- 热门路线部分 -->
+        <div class="container" id="side" style="margin-top: 15px;">
             <div class="row">
                 <div id="pc-side-font">
                     <h3 style="color: black; text-align: center;"> 热门线路</h3>
                     <h5 style="color: black; text-align: center;">Popular tourist routes</h5>
                 </div>
-                <div class="col-xs-2" id="phone-side-font" style="width: 500px; border-bottom: 1ps solid rgba(34, 31, 31, 0.9); ">
+                <div class="col-xs-2" id="phone-side-font" style="width: 500px; border-bottom: 1ps solid rgba(34, 31, 31, 0.9);">
                     <span style="color: red;">|</span>
                     <span>热门线路</span>
                 </div>
@@ -211,7 +234,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-2 col-xs-push-4" id="more">
+                <div class="col-xs-2 col-xs-push-3" id="more">
                     <button type="button" class="btn" style="border: 2px solid #b8b8b8;
                     color: #b9b5b5;
                     background-color: white;
@@ -225,13 +248,14 @@
 
             </div>
         </div>
+        <!-- 愿望部分 -->
         <div class="container" id="hope">
             <div class="row">
                 <div id="pc-side-font">
                     <h3 style="color: black; text-align: center;"> 使命与愿景</h3>
                     <h5 style="color: black; text-align: center;">让旅游回归本质，体验纯粹旅游</h5>
                 </div>
-                <div id="phone-side-font" style="width: 500px; border-bottom: 1ps solid rgba(209, 209, 209, 0.5);">
+                <div id="phone-side-font" style="width: 500px; border-bottom: 1ps solid rgba(209, 209, 209, 0.5); background-color: white;">
                     <h3> <span style="color: red;">|</span>使命与愿景:让旅游回归本质，体验纯粹旅游</h3>
                 </div>
             </div>
@@ -258,7 +282,7 @@
                     </p>
                 </div>
             </div>
-            <div class="row" id="pc-hope2" style="margin-top: 10px;">
+            <div class="row" id="pc-hope2">
                 <div class="col-md-12 col-xs-12" style="padding-right: 0px; padding-left: 0px;">
                     <img src="images/mission2.jpg" alt="" class="img-responsive">
 
@@ -269,7 +293,7 @@
                     <div class="row">
                         <div class="col-md-4" style="height:400px; text-align:center;">
                             <div id="hope-bg1">
-                                <img src="img/icon1.png" alt="" style="margin-top: 50px;">
+                                <img src="images/icon1.png" alt="" style="margin-top: 50px;">
                                 <h4>品质行程</h4>
                             </div>
                             <h5 style="color: white; text-align: center; line-height: 20px;">旅游达人精心设计、基于口碑反复打磨，</br> 全网最好，敢跟任何产品比
@@ -277,7 +301,7 @@
                         </div>
                         <div class="col-md-4" style="height:400px; text-align:center;">
                             <div id="hope-bg2">
-                                <img src="img/icon2.png" alt="" style="margin-top: 50px;">
+                                <img src="images/icon2.png" alt="" style="margin-top: 50px;">
                                 <h4>品质</h4>
                             </div>
                             <h5 style="color: white; text-align: center;  line-height: 20px;">不推自费，<br> 不进垃圾购物店和伪景点
@@ -285,7 +309,7 @@
                         </div>
                         <div class="col-md-4" style="height:400px; text-align:center;">
                             <div id="hope-bg3">
-                                <img src="img/icon3.png" alt="" style="margin-top: 50px;">
+                                <img src="images/icon3.png" alt="" style="margin-top: 50px;">
                                 <h4>品质小团</h4>
                             </div>
                             <h5 style="color: white; text-align: center;  line-height: 20px;">独立成团不散拼，<br> 只跟亲朋好友一起玩，每天发团 </h5>
@@ -299,7 +323,7 @@
                 </div>
                 <div class="row" style="border-bottom: 1px solid rgba(147,145,145,0.5)">
                     <div class="col-xs-3 col-xs-push-2" style="height: 150px; margin-top: 50px;">
-                        <img src="img/icon11.png" alt="">
+                        <img src="images/icon11.png" alt="">
                     </div>
                     <div class="col-xs-7 col-xs-push-2" style="height: 150px; ">
                         <p style="margin-top: 40px;line-height:25px;">旅游达人精心设计、基于口碑反复打磨，<br> 告别人山人海鸡肋景点。
@@ -309,7 +333,7 @@
                 </div>
                 <div class="row" style="border-bottom: 1px solid rgba(147,145,145,0.5)">
                     <div class="col-xs-3 col-xs-push-2" style="height: 150px; margin-top: 50px;">
-                        <img src="img/icon22.png" alt="">
+                        <img src="images/icon22.png" alt="">
                     </div>
                     <div class="col-xs-7 col-xs-push-2" style="height: 150px;">
                         <p style="margin-top: 60px;line-height:25px;">不推自费，<br> 不进垃圾购物店和伪景点
@@ -318,7 +342,7 @@
                 </div>
                 <div class="row" style="border-bottom: 1px solid rgba(147,145,145,0.5)">
                     <div class="col-xs-3 col-xs-push-2" style="height: 150px; margin-top: 50px;">
-                        <img src="img/icon33.png" alt="">
+                        <img src="images/icon33.png" alt="">
                     </div>
                     <div class="col-xs-7 col-xs-push-2" style="height: 150px;">
                         <p style="margin-top: 60px;line-height:25px;">独立成团不散拼，<br> 只跟亲朋好友一起玩，每天发团 </p>
@@ -327,6 +351,7 @@
 
             </div>
         </div>
+        <!-- 底部 -->
         <div id="pc-bottom">
             <div class="container">
                 <div class="row" id="row1">
@@ -466,7 +491,6 @@
                 </div>
             </div>
         </div>
+
     </div>
 </body>
-
-</html>
