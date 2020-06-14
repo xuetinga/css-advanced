@@ -23,6 +23,9 @@
 #a{
     font-size: 20px;
 }
+#navbar1{
+    margin-bottom: 0px;
+}
 .navbar-nav li {
     text-align: left;
     margin-left: 50px;
@@ -233,6 +236,7 @@ a {
 /* 实现过渡 */
 
 @media screen and (max-width:768px) {
+
     #col-1 ul{
         height: 200px;
     }
