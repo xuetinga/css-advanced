@@ -219,7 +219,23 @@ a {
     display: none;
 }
 
-
+/*愿望部分*/
+ .content4 {
+        margin-top: 30px;
+    }
+    .content4 p:nth-child(1) {
+        font-size: 36px;
+        line-height: 55px;
+        text-align: center;
+    }
+    .content4 p:nth-child(2) {
+        font-size: 16px;
+        line-height: 17px;
+        text-align: center;
+    }
+    .content4 span {
+        display: none;
+    }
 /* 实现过渡 */
 
 @media screen and (max-width:768px) {
@@ -270,7 +286,6 @@ a {
         background-color: #fff;
     }
    
-
 }
 
 @media screen and (min-width: 768px) {
@@ -459,13 +474,16 @@ h2 {
 
 /* 愿望与憧憬 */
 
+#hope {
+    background: url(../images/back.png) no-repeat;
+}
 
 #hope-bg1,
 #hope-bg2,
 #hope-bg3 {
     width: 195px;
     height: 200px;
-    background: url(../images/rorate.png) no-repeat;
+    background: url(../img/rorate.png) no-repeat;
     margin: 40px auto;
     text-align: center;
     color: white;
