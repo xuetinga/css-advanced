@@ -64,7 +64,7 @@
 .navbar-collapse .navbar-toggle {
     border-color: rgba(0, 0, 0, 0);
 }
-.navbar-collapse .navbar-collapse, .navbar-collapse .navbar-form {
+#navbar1 .navbar-collapse, .navbar-collapse .navbar-form {
    border:0px;
 }
 
