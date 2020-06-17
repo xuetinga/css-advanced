@@ -22,7 +22,7 @@
 }
 #a{
     font-size: 20px;
-}
+}s
 #navbar1{
     margin-bottom: 0px;
 }
@@ -33,17 +33,17 @@
 }
 
 
-.navbar-inverse {
+.navbar-collapse {
     border-color: rgba(0, 0, 0, 0);
     background-color: #dddddd;
 }
 
-.navbar-inverse .navbar-nav>li>a {
+.navbar-collapse .navbar-nav>li>a {
     color: #080808;
 }
 
-.navbar-inverse .navbar-nav>li>a:focus,
-.navbar-inverse .navbar-nav>li>a:hover {
+.navbar-collapse .navbar-nav>li>a:focus,
+.navbar-collapse .navbar-nav>li>a:hover {
     color: rgb(241, 72, 11);
     background-color: transparent;
 }
@@ -52,19 +52,19 @@
     border-bottom: 4px solid rgb(241, 72, 11);
 }
 
-.navbar-inverse .navbar-toggle:focus,
-.navbar-inverse .navbar-toggle:hover {
+.navbar-collapse .navbar-toggle:focus,
+.navbar-collapse .navbar-toggle:hover {
     background-color: #fff;
 }
 
-.navbar-inverse .navbar-toggle .icon-bar {
+.navbar-collapse .navbar-toggle .icon-bar {
     background-color: black;
 }
 
-.navbar-inverse .navbar-toggle {
+.navbar-collapse .navbar-toggle {
     border-color: rgba(0, 0, 0, 0);
 }
-.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+.navbar-collapse .navbar-collapse, .navbar-collapse .navbar-form {
    border:0px;
 }
 
@@ -236,6 +236,10 @@ a {
 /* 实现过渡 */
 
 @media screen and (max-width:768px) {
+    .navbar-nav {
+    margin: 7.5px -15px;
+    background-color: white;
+}
 
     #col-1 ul{
         height: 200px;
